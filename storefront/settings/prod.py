@@ -30,7 +30,6 @@ CACHES = {
 
 response = requests.get("https://mailtrap.io/api/v1/inboxes.json?api_token=cebc22ecad561181de5462b3d31ed2ee")
 credentials = response.json()[0]
-
 EMAIL_HOST = credentials['domain']
 EMAIL_HOST_USER = credentials['username']
 EMAIL_HOST_PASSWORD = credentials['password']
