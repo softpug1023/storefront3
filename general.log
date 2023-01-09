@@ -23,3 +23,4 @@
 2023-01-09 06:47:30,095 (WARNING) - django.request - Not Found: /cart.json
 2023-01-09 06:47:30,120 (WARNING) - django.request - Not Found: /favicon.ico
 2023-01-09 06:47:32,880 (WARNING) - django.request - Not Found: /cart.json
+2023-01-09 07:25:41,058 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
